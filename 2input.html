@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input's 2</title>
+</head>
+
+<body>
+    <form action="" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Novos Campos</legend>
+            <!-- Campo oculto -->
+            <input type="hidden" id="idCliente" name="idCliente">
+            <!-- necessario ENCTYPE para envio de imagem -->
+            <br>
+            <label>Foto</label>
+            <input type="file" id="foto" name="foto" accept="image/*"> . . . . . . . . . . Voltar para   <a href="1input.html">Input 1</a>
+            <br />
+            <br>
+            <Label>Regiões</Label>
+            <select name="regiao" id="regiao">
+                <option value="N">Norte</option>
+                <option value="NE">Nordeste</option>
+                <option value="CO">Centro-Oeste</option>
+                <option value="SE">Sudeste</option>
+                <option value="S">Sul</option>
+            </select>
+            <br />
+            <br>
+            <label>Esportes Preferidos</label>
+            <label>
+                <input type="checkbox" name="esporte" value="Atl">Atletismo
+            </label>
+            <label>
+                <input type="checkbox" name="esporte" value="Nat">Natação
+            </label>
+            <label>
+                <input type="checkbox" name="esporte" value="Fut">Futebol
+            </label>
+            <br>
+            <br>
+            <label>Escolaridade</label>
+            <label>
+                <input type="radio" name="Escolaridade" value="EF" required>Ensino Fundamental
+            </label>
+            <input type="radio" name="Escolaridade" value="EM" required>Ensino Medio
+            </label>
+            <input type="radio" name="Escolaridade" value="SUP" required>Ensino Superior
+            </label>
+            <input type="radio" name="Escolaridade" value="POS" required>Pos-Graduação
+            </label>
+            <br />
+            <br>
+            <label>Deixe sua opinião</label>
+            
+            <br />
+            <textarea cols="70" rows="7" name="opinião" id="opinião" 
+            maxlength="300" placeholder="Sua opinião">
+        
+        
+        </textarea>
+
+
+        
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
